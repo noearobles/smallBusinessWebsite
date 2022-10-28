@@ -84,7 +84,6 @@ p a:hover {
 #body h1 {
 	color: #fff;
 	display: inline;
-	/* font-family: poller_oneregular; */
 	font-size: 35px;
 	font-weight: normal;
 	margin: 0;
@@ -251,7 +250,6 @@ p a:hover {
 	background: #fff;
 	color: #000;
 	display: inline-block;
-	/* font-family: poller_oneregular; */
 	font-size: 20px;
 	font-weight:bolder;
 	margin: 0 0 18px;
@@ -303,7 +301,6 @@ p a:hover {
 #body>ul li a {
 	color: #000;
 	display: block;
-	/* font-family: poller_oneregular; */
 	font-size: 20px;
 	font-weight: normal;
 	margin: 0;

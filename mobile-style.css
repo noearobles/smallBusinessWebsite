@@ -154,7 +154,7 @@ body {
 	padding: 8px 5px;
 }
 
-#body #featured div span {
+#body #featured div span {width: 50%;
 	display: block;
 	font-size: 14px;
 	margin: 10px 0;

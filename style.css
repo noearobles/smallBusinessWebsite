@@ -8,47 +8,56 @@ body {
 	min-width: 960px;
 	padding: 0;
 }
+
 p {
 	color: #252525;
 	line-height: 24px;
 	margin: 0;
 	padding: 0;
 }
+
 p a {
 	color: #252525;
 	text-decoration: underline;
 }
+
 p a:hover {
 	color: #898989;
 }
+
 #header {
 	margin: 0 auto;
 	padding: 44px 0 50px;
 	text-align: center;
 	width: 960px;
 }
+
 #header a.logo {
 	display: block;
 	margin: 0 auto;
 	padding: 0;
 	width: 340px;
 }
+
 #header a.logo img {
 	border: 0;
 	display: block;
 	margin: 0;
 	padding: 0;
 }
+
 #header ul {
 	margin: 0;
 	padding: 56px 0 0;
 }
+
 #header ul li {
 	display: inline;
 	list-style: none;
 	margin: 0;
 	padding: 0 19px;
 }
+
 #header ul li a {
 	color: #252525;
 	display: inline-block;
@@ -60,57 +69,68 @@ p a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-#header ul li a:hover, #header ul li.selected a {
+
+#header ul li a:hover,
+#header ul li.selected a {
 	color: #0ba39c;
 }
+
 #body {
 	margin: 0;
 	padding: 0 0 30px;
 	text-align: center;
 }
+
 #body h1 {
 	color: #fff;
 	display: inline;
-	font-family: poller_oneregular;
+	/* font-family: poller_oneregular; */
 	font-size: 35px;
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
 }
-#body h1 span {
+
+#body h1 span {font-weight: bolder;
 	background: #252525;
 	display: inline-block;
 	padding: 15px 28px 12px;
 }
-#body > div {
+
+#body>div {
 	margin: 0 auto;
 	padding: 0;
 	width: 960px;
 }
-#body > div img {
+
+#body>div img {
 	border: 2px solid #292929;
 	margin: 24px 0 0;
 	padding: 0;
 }
-#body > div .article {
+
+#body>div .article {font-size: larger;
 	margin: 0 auto;
 	padding: 30px 30px 0;
 	width: 560px;
 }
-#body > div .article h2 {
+
+#body>div .article h2 {
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 25px;
 	font-weight: normal;
 	margin: 0 0 30px;
 }
-#body > div .article h3 {
+
+#body>div .article h3 {
 	color: #252525;
 	line-height: 24px;
 	margin: 0;
 	padding: 0;
 }
-#body > div .article h4 {
+
+#body>div .article h4 {
 	background: #252525;
 	color: #fff;
 	display: inline-block;
@@ -120,14 +140,17 @@ p a:hover {
 	margin: 0 0 30px;
 	padding: 8px 27px 10px;
 }
-#body > div .article p {
+
+#body>div .article p {
 	margin: 0 0 30px;
 }
+
 #body div ul {
 	margin: 0;
 	padding: 24px 10px 0;
 	width: 940px;
 }
+
 #body div ul li {
 	border: 2px solid #1a1a1a;
 	display: block;
@@ -136,6 +159,7 @@ p a:hover {
 	overflow: hidden;
 	padding: 0;
 }
+
 #body div ul li .figure {
 	border-right: 2px solid #1a1a1a;
 	float: left;
@@ -143,6 +167,7 @@ p a:hover {
 	padding: 0;
 	width: 376px;
 }
+
 #body div ul li img {
 	border: 0;
 	display: block;
@@ -151,15 +176,18 @@ p a:hover {
 	opacity: 0.8;
 	transition: 0.5s ease-in-out;
 }
+
 #body div ul li .figure:hover img {
 	opacity: 1;
 }
+
 #body div ul li div {
 	float: left;
 	margin: 0;
 	padding: 63px 0 20px;
 	width: 558px;
 }
+
 #body div ul li div h3 {
 	color: #252525;
 	font-family: "Arial Black", Gadget, sans-serif;
@@ -169,9 +197,11 @@ p a:hover {
 	padding: 0;
 	text-transform: uppercase;
 }
-#body div ul li div p {
+
+#body div ul li div p {font-weight: normal;font-size: 20px;
 	padding: 30px 30px 18px;
 }
+
 #body div ul li div a.more {
 	background: #000;
 	color: #fff;
@@ -184,17 +214,20 @@ p a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
 #body div ul li div a.more:hover {
 	color: #252525;
 	background: #fff;
 	border: 2px solid #252525;
 }
+
 #body #featured {
 	margin: 0 0 13px;
 	padding: 0;
 	position: relative;
 	width: 100%;
 }
+
 #body #featured img {
 	border: 0;
 	display: block;
@@ -202,6 +235,7 @@ p a:hover {
 	padding: 0;
 	width: 100%;
 }
+
 #body #featured div {
 	left: 50%;
 	margin-left: -480px;
@@ -212,17 +246,19 @@ p a:hover {
 	text-align: left;
 	width: 490px;
 }
+
 #body #featured div h2 {
 	background: #fff;
 	color: #000;
 	display: inline-block;
-	font-family: poller_oneregular;
+	/* font-family: poller_oneregular; */
 	font-size: 20px;
-	font-weight: normal;
+	font-weight:bolder;
 	margin: 0 0 18px;
 	padding: 23px 27px 20px;
 	text-transform: uppercase;
 }
+
 #body #featured div span {
 	background: #252525;
 	color: #fff;
@@ -231,6 +267,7 @@ p a:hover {
 	margin: 7px 0;
 	padding: 12px 27px;
 }
+
 #body #featured div a {
 	background: #0ba39c;
 	color: #fff;
@@ -242,26 +279,30 @@ p a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
 #body #featured div a:hover {
 	background: #1fc3bc;
 }
-#body > ul {
+
+#body>ul {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 24px 0 0;
 	width: 960px;
 }
-#body > ul li {
+
+#body>ul li {
 	display: block;
 	float: left;
 	margin: 0 10px 20px;
 	padding: 0;
 	width: 300px;
 }
-#body > ul li a {
+
+#body>ul li a {
 	color: #000;
 	display: block;
-	font-family: poller_oneregular;
+	/* font-family: poller_oneregular; */
 	font-size: 20px;
 	font-weight: normal;
 	margin: 0;
@@ -270,7 +311,8 @@ p a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-#body > ul li a img {
+
+#body>ul li a img {
 	border: 2px solid #1a1a1a;
 	display: block;
 	margin: 0;
@@ -278,36 +320,44 @@ p a:hover {
 	opacity: .8;
 	transition: 0.5s ease-in-out;
 }
-#body > ul li a:hover img {
+
+#body>ul li a:hover img {
 	opacity: 1;
 }
-#body > ul li a span {
+
+#body>ul li a span {
 	display: block;
 	margin: 0;
 	padding: 33px 0 0;
+	font-weight: bolder;
 }
+
 #body form {
 	margin: 0 auto;
 	padding: 24px 0 0;
 	width: 620px;
 }
-#body form input, #body form textarea {
+
+#body form input,
+#body form textarea {
 	border: 2px solid #252525;
 	color: #252525;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
-	font-weight: normal;
+	font-weight: bolder;
 	margin: 0 0 37px;
 	padding: 20px 10px;
 	text-align: center;
 	text-transform: uppercase;
 	width: 596px;
 }
+
 #body form textarea {
 	height: 175px;
 	overflow: auto;
 	resize: none;
 }
+
 #body form #send {
 	background: #252525;
 	color: #fff;
@@ -318,22 +368,26 @@ p a:hover {
 	padding: 20px 28px;
 	width: auto;
 }
+
 #body form #send:hover {
 	background: #fff;
 	color: #252525;
 	cursor: pointer;
 }
+
 #footer {
 	background: #252525;
 	margin: 0;
 	padding: 36px 0 42px;
 }
+
 #footer div {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
 	width: 960px;
 }
+
 #footer div p {
 	color: #fff;
 	float: left;
@@ -341,6 +395,7 @@ p a:hover {
 	margin: 0 0 0 10px;
 	padding: 0;
 }
+
 #footer div ul {
 	display: block;
 	float: right;
@@ -349,6 +404,7 @@ p a:hover {
 	padding: 0;
 	width: 256px;
 }
+
 #footer div ul li {
 	display: block;
 	float: left;
@@ -357,6 +413,7 @@ p a:hover {
 	padding: 0;
 	width: 44px;
 }
+
 #footer div ul li a {
 	background: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/icons.jpg) no-repeat 0 0;
 	display: block;
@@ -366,27 +423,35 @@ p a:hover {
 	text-indent: -99999px;
 	width: 44px;
 }
+
 #footer div ul li #twitter {
 	background-position: 0 0;
 }
+
 #footer div ul li #twitter:hover {
 	background-position: -44px 0;
 }
+
 #footer div ul li #facebook {
 	background-position: 0 -44px;
 }
+
 #footer div ul li #facebook:hover {
 	background-position: -44px -44px;
 }
+
 #footer div ul li #googleplus {
 	background-position: 0 -88px;
 }
+
 #footer div ul li #googleplus:hover {
 	background-position: -44px -88px;
 }
+
 #footer div ul li #pinterest {
 	background-position: 0 -132px;
 }
+
 #footer div ul li #pinterest:hover {
 	background-position: -44px -132px;
 }

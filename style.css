@@ -400,7 +400,7 @@ p a:hover {
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
-	width: 256px;
+	width: auto;
 }
 
 #footer div ul li {

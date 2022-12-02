@@ -207,7 +207,6 @@ body {
 
 #body div ul li {
 	overflow: visible;
-	padding: 0 0 20px;
 	width: 99%;
 }
 
@@ -265,6 +264,8 @@ body {
 }
 
 #footer div ul {
+	display: flex;
+	flex-direction: row;
 	float: none;
 	margin: 0 auto;
 	width: 256px;
